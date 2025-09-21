@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="myName">Mostafa Al-Haj Qasem</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>     
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="myName">Mostafa Al-Haj Qasem</div>
+        <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+                    <div class="menu-links">
+                            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+            </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/unnamed.jpg" alt="Profile Pic">
+        </div>
+        <div class="section__text">
+            <div class="section__text__p1">Hello, I'm</div>
+            <h1 class="title">Mostafa Al-Haj Qasem</h1>
+            <div class="section__text__p2">Frontend Developer</div>
+            <div class="btn-container">
+                <button class="btn btn-color-2"onclick="window.open('./assets/Mostafa-Al-Haj-Qasem-Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin-svgrepo-com.svg" alt="LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/mostafa-hajqasem/'">
+                <img src="./assets/github-142-svgrepo-com.svg" alt="GitHub profile" class="icon" onclick="location.href='https://github.com/MostafaHQ'">
+            </div>
+        </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about.jpg" alt="Profile Pic" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/medal-svgrepo-com.svg" alt="Experience Icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>Junior Frontend Developer</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education-cap-svgrepo-com.svg" alt="Eduction Icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B.Sc Bachlors Degree</p>
+                        </div>
+                    </div>
+                    <div class="text-caontainer">
+                        <p>
+                            Front-End engineer joined two intensive coding boot camps with AXSOSAcademy and TAP and hands-on experience in HTML, CSS, JavaScript, andstrong knowledge React js
+    <br/>Successfully developed multiple projects using various tech stacks includingMERN and Python/Django.<br/>
+    Seeking to leverage my skills and passion for learning in a challenging Front-End Developer role.<br/>
+    Motivated by learning something new every day, and driven by quality overquantity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/down-arrow-svgrepo-com.svg" alt="Arrow Icon" class="icon arrow" onclick="location.href='#experience'">
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/html-5-svgrepo-com.svg" alt="HTML icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                </div>
+                            </article>
+                                <article>
+                                <img src="./assets/css-3-svgrepo-com.svg" alt="CSS icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                </div>
+                            </article>
+                                <article>
+                                <img src="./assets/js-official-svgrepo-com.svg" alt="JS icon" class="icon">
+                                <div>
+                                    <h3>JavaScript</h3>
+                                </div>
+                            </article>
+                                <article>
+                                <img src="./assets/reactjs-svgrepo-com.svg" alt="ReactJs icon" class="icon">
+                                <div>
+                                    <h3>React Js</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/material-ui-svgrepo-com.svg" alt="MUI icon" class="icon">
+                                <div>
+                                    <h3>Material UI</h3>
+                                </div>
+                            </article>
+                               <article>
+                                <img src="./assets/bootstrap-4-logo-svgrepo-com.svg" alt="Bootstrap icon" class="icon">
+                                <div>
+                                    <h3>MBootstrap</h3>
+                                </div>
+                            </article>
+                               <article>
+                                <img src="./assets/github-142-svgrepo-com.svg" alt="GitHub icon" class="icon">
+                                <div>
+                                    <h3>GitHub</h3>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Soft Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/puzzle-piece-svgrepo-com.svg" alt="Puzzle icon" class="icon">
+                                <div>
+                                    <h3>Problem Solving</h3>
+                                </div>
+                            </article>
+                                <article>
+                                <img src="./assets/brain-svgrepo-com.svg" alt="Brain icon" class="icon">
+                                <div>
+                                    <h3>Critical Thinking</h3>
+                                </div>
+                            </article>
+                                <article>
+                                <img src="./assets/handshake-svgrepo-com.svg" alt="Handshake icon" class="icon">
+                                <div>
+                                    <h3>Team Player</h3>
+                                </div>
+                            </article>
+                                <article>
+                                <img src="./assets/speech-bubble-6-svgrepo-com.svg" alt="Speech Bubble icon" class="icon">
+                                <div>
+                                    <h3>Communication</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/synchronize-svgrepo-com.svg" alt="Synch icon" class="icon">
+                                <div>
+                                    <h3>Adaptability</h3>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/down-arrow-svgrepo-com.svg" alt="Arrow Icon" class="icon arrow" onclick="location.href='#projects'">
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="atricle-container">
+                        <img src="./assets/CORA'L-store.png" alt="CORA'L project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">CORA'L Store</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JSD-0723/frontend-final-4-new'">
+                            GitHub 
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="atricle-container">
+                        <img src="./assets/share_my_car.png" alt="Share My Car project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Share My Car</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MostafaHQ/share_my_car'">
+                            GitHub 
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <img src="./assets/down-arrow-svgrepo-com.svg" alt="Arrow Icon" class="icon arrow" onclick="location.href='#contact'">
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email-part-2-svgrepo-com.svg" alt="Email icon" class="icon contac-icon">
+                    <p><a href="mailto:mostafa.hajqasem@gmail.com">mostafa.hajqasem@gmail.com</a></p>
+                </div>
+                    <div class="contact-info-container">
+                    <img src="./assets/linkedin-svgrepo-com.svg" alt="LinkedIn icon" class="icon contac-icon">
+                    <p><a href="https://www.linkedin.com/in/mostafa-hajqasem/">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2025 Mostafa Al-Haj Qasem. All Right Reserved</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
